@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Верстка сайта с использование Bootstrap для китайской компании
 
-Template Name: Flexor
-Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+
