@@ -2409,6 +2409,10 @@ section {
   .card__item p {
     font-size: 14px;
   }
+
+  .adout__card  {
+    margin-top: 130px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -2474,6 +2478,23 @@ section {
   }
   .contact .info-box p{
     font-size: 18px;
+  }
+
+  .info-box {
+    width: 320px;
+  }
+
+  .contact .info-box h3{
+    font-size: 22px;
+  }
+  .contact .info-box p{
+    font-size: 14px;
+  }
+  .footer-newsletter h4 {
+    text-align: center;
+  }
+  .footer-top {
+    text-align: center;
   }
 }
 
