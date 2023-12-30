@@ -105,10 +105,24 @@
         backtotop.classList.add('active')
       } else {
         backtotop.classList.remove('active')
-      }
+      }а
     }
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
+  }
+
+  // Добавляем кнопку- позванить при скроле вниз!
+  let callMe = select('.call-me')
+  if (callMe) {
+    const toggleCallMe = () => {
+      if (window.scrollY > 100) {
+        callMe.classList.add('active')
+      } else {
+        callMe.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleCallMe)
+    onscroll(document, toggleCallMe)
   }
 
   /**
